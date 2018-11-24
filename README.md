@@ -1,2 +1,15 @@
 # handwritten_numbers_recognizer
-The application allows to recognize handwritten numbers
+Распознаватель рукописных цифр mnist
+
+Нейронная сеть 
+-два слоя
+
+Реализация на Keras
+-Модель: Sequential
+-Уровни сети: Dense
+-Функции активации: Relu и softMax
+-Оптимизация: SGD, размер мини-выборки 200, число эпох 100
+-Точность работы сети 97%
+
+
+
